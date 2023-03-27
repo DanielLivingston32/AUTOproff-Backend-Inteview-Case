@@ -1,0 +1,24 @@
+﻿{
+  "Books": [
+    {
+      "ISBN": "1234567890",
+      "Title": "Book Title 1"
+    },
+    {
+      "ISBN": "0987654321",
+      "Title": "Book Title 2"
+    }
+  ],
+  "Locations": [
+    {
+      "RoomNumber": 1,
+      "RowNumber": 2,
+      "BookshelfNumber": 3
+    },
+    {
+      "RoomNumber": 4,
+      "RowNumber": 5,
+      "BookshelfNumber": 6
+    }
+  ]
+}
