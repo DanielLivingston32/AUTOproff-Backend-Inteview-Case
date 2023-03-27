@@ -5,6 +5,11 @@ namespace CaseTwo {
     {
         private List<Book> books = new List<Book>();
 
+        /// <summary>
+        /// Parses the Input string
+        /// </summary>
+        /// <param name="input">The input string to be parsed.</param>
+        /// <returns>List of books from the parsed input.</returns>
         public List<Book> ReadBooks(string input)
         {
             List<Book> result = new List<Book>();
@@ -56,6 +61,11 @@ namespace CaseTwo {
             return result;
         }
 
+        /// <summary>
+        /// Finds a book based on search query.
+        /// </summary>
+        /// <param name="searchString">The search query string to be used to search a book.</param>
+        /// <returns>List of all matching books.</returns>
         public List<Book> FindBooks(string searchString)
         {
             List<Book> result = new List<Book>();
@@ -79,6 +89,12 @@ namespace CaseTwo {
             return result;
         }
 
+        /// <summary>
+        /// Helper method to match query.
+        /// </summary>
+        /// <param name="book">Individual book to be matched.</param>
+        /// <param name="query">The current search query to be matched.</param>
+        /// <returns></returns>
         private bool MatchesQuery(Book book, string query)
         {
             bool result = false;
